@@ -18,11 +18,22 @@ export default function Home() {
           <div className='grid grid-cols-2 gap-6'>
             <div className='p-4 bg-blue-50 rounded-lg'>
               <h3 className='text-lg font-semibold mb-2'>Box 1</h3>
-              <p className='text-sm'>Hover to inspect elements</p>
+              <p className='text-sm text-justify text-gray-500 tracking-tighter'>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                unknown printer took a galley of type and scrambled it to make a type specimen book.
+                It has survived not only five centuries, but also the leap into electronic
+                typesetting, remaining essentially unchanged.
+              </p>
             </div>
             <div className='p-4 bg-green-50 rounded-lg'>
               <h3 className='text-lg font-semibold mb-2'>Box 2</h3>
-              <p className='text-sm'>Click to edit classes</p>
+              <p className='text-sm text-justify text-gray-500 tracking-tighter'>
+                It is a long established fact that a reader will be distracted by the readable
+                content of a page when looking at its layout. The point of using Lorem Ipsum is that
+                it has a more-or-less normal distribution of letters, as opposed to using 'Content
+                here, content here', making it look like readable English.
+              </p>
             </div>
           </div>
 
@@ -33,7 +44,7 @@ export default function Home() {
               style={{
                 clipPath: "polygon(50% 0%, 0% 100%, 100% 100%)",
               }}></div>
-            <div className='w-24 h-24 rounded-full bg-orange-100 to-blue-200 shadow-sm'></div>
+            <div className=' w-24 h-24 rounded-full bg-orange-100 shadow-sm'></div>
           </div>
         </div>
 
