@@ -65,7 +65,7 @@ export default function ClassEditor() {
           value={newClass}
           onChange={(e) => setNewClass(e.target.value)}
           onKeyDown={(e) => e.key === "Enter" && addClass(newClass)}
-          placeholder='Add new class'
+          placeholder='Add new tailwind class'
           className='flex-1 px-3 py-2 border rounded-md text-sm'
         />
         <button
