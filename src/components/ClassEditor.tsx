@@ -23,9 +23,14 @@ export default function ClassEditor() {
   };
 
   // adding a new class
-  const addClass = (className: string) => {
-    if (className && !classes.includes(className)) {
-      updateClasses([...classes, className]);
+  const addClass = (classNames: string) => {
+    const newClasses = classNames
+      .split(" ") // split by space
+      .map((cls) => cls.trim())
+      .filter((cls) => cls && !classes.includes(cls)); 
+
+    if (newClasses.length > 0) {
+      updateClasses([...classes, ...newClasses]);
     }
     setNewClass("");
   };
