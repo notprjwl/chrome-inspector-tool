@@ -69,7 +69,7 @@ export default function ElementInspector() {
       left: parseInt(computedStyle.marginLeft) || 0,
     };
 
-    // console.log(element.classList)
+    console.log(element.classList)
 
     // generate element info
     const tag = element.tagName.toLowerCase();
